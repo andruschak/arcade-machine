@@ -87,18 +87,19 @@ As noted in the requirements I wanted to build a panel that would allow two 6' a
 
 All of the parts were ordered from [ultimarc](https://www.ultimarc.com/). The price was quite reasonable coming out at ~$200 with shipping (Nov 2011).
 
-Classic Pushbuttons. Black      1.95    4       7.80
-Classic Pushbuttons. Orange     1.95    2       3.90
-Classic Pushbuttons. Blue       1.95    4       7.80
-Classic Pushbuttons. Green      1.95    4       7.80
-Classic Pushbuttons. Red        1.95    4       7.80
-I-PAC 2 Interface. USB Cable    43.00   1       43.00
-Mag-Stik Plus Red               33.00   2       66.00
-Start Logo Pushbuttons. Start 1 2.90    1       2.90
-Start Logo Pushbuttons. Start2  2.90    1       2.90
-Wiring Kit -                    22.00   1       22.00
-Shipping                        30.00   1       30.00    
-Total                                           201.90
+
+| Part                          | Price         | Count  | Total  |
+| ------------------------------|--------------:| ------:|-------:|
+| Classic Pushbuttons. Black    | 1.95          | 2      | 7.80   |
+| Classic Pushbuttons. Blue     | 1.95          | 2      | 7.80   |
+| Classic Pushbuttons. Green    | 1.95          | 2      | 7.80   |
+| Classic Pushbuttons. Red      | 1.95          | 2      | 7.80   |
+| I-PAC 2 Interface. USB Cable  | 43.00         | 1      | 43.00  |
+| Mag-Stik Plus Red             | 33.00         | 2      | 66.00  |
+| Start Logo Pushbut. Start 1   | 2.90          | 1      | 2.90   |
+| Start Logo Pushbut. Start 2   | 2.90          | 1      | 2.90   |
+| Wiring Kit                    | 22.00         | 1      | 22.00  |
+
 
 #### Build Pics 
 
