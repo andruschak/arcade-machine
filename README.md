@@ -1,6 +1,8 @@
 # Building... and rebuilding an arcade machine
 
-This is a chronical of a project that took to life in 2011 and is still evolving today. Some of the original information is gone but I will endevour to try and find as much of the original plans as I can.
+This is a chronical of a project that took to life in 2011 and is still evolving today. Tragedy struck around 6 months ago when the motherboard in the PC died. 
+
+Some of the original information is gone but I will endevour to try and find as much of the original plans as I can.
 
 ## A brief history
 
@@ -13,7 +15,7 @@ It didn't stop at console games. It branched out to early PC (we're talking 486d
 Being a maker at heart it only made sense to build my own machine.
 
 
-### Build criteria
+## Build criteria
 
 A few of the things I wanted in the build (in no particular order):
 
@@ -34,7 +36,7 @@ A few of the things I wanted in the build (in no particular order):
 - [ ] Lightgun support
 
 
-### The Shell
+## The Shell
 
 I had the pleasure of working with an at the time co-worker on this piece (he has since retired). Together we modified some rough plans we found on the internet and went about construction. As with any first go-around there are parts we could have done better but overall I think the results were fantastic.
 
@@ -47,34 +49,56 @@ There are 2 holes drilled at the top for speakers and the marquee has a removabl
 The outside is finished in a textured gray and black paint. At the time I was unable to find anywhere that would do a custom decal for the sides for under $1000
 
 
-
-### Control Panel
-
-##### 
-
-##### Joysticks
-
-##### Buttons
-
-### Display
+## Build pictures
 
 
+![side panel on the table saw](https://github.com/andruschak/arcade-machine/blob/master/images/side-precut.png)
+The side panel, stenciled and being cut
+
+![front panel and paper stencil](https://github.com/andruschak/arcade-machine/blob/master/images/front-panel-preassemble.png)
+Cutouts of the front panel, paper stencil of the control layout
+
+![lower assembly](https://github.com/andruschak/arcade-machine/blob/master/images/lower-assembly-one.png)
+The lower part of the cabinet assembled
+
+![upper assembly](https://github.com/andruschak/arcade-machine/blob/master/images/upper-assembly-one.png)
+The upper part of the assembly during initial fitting
+
+![upper assembly primed](https://github.com/andruschak/arcade-machine/blob/master/images/upper-assembly-two.png)
+The upper part complete and primed
+
+![upper and lower](https://github.com/andruschak/arcade-machine/blob/master/images/upper-and-lower.png)
+Both the upper and lower componants before assembly
 
 
-### The PC
+## Control Panel
+
+#### Build Pics 
+
+#### Joysticks
+
+#### Buttons
 
 
 
-### The return of PC
+## Display
+
+
+
+## The PC
+
+
+
+## The return of PC
 
 
 ### Software
 
 
-#### Front end
+### Front end
 
 
-#### ROMS
+### ROMS
 
 
 
