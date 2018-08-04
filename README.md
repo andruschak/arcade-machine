@@ -16,11 +16,13 @@ It didn't stop at console games. It branched out to early PC (we're talking 486d
 
 Being a maker at heart it only made sense to build my own machine.
 
+# Cabinet & electronics
+
 ## Build criteria
 
 A few of the things I wanted in the build (in no particular order):
 
-- [x] Full sized cabinet (modelled after street fighter/mortal combat dimensions)
+- [x] Full sized cabinet (modelled after street fighter/mortal kombat dimensions)
 - [x] Perfect height for two 6' adults to stand without bumping into each other
 - [x] Moderately priced
 - [x] Powerful enough to play games like Mortal Kombat 2, Killer Instinct, etc.
@@ -87,7 +89,7 @@ As noted in the requirements I wanted to build a panel that would allow two 6' a
 
 All of the parts were ordered from [ultimarc](https://www.ultimarc.com/). The price was quite reasonable coming out at ~$200 with shipping (Nov 2011).
 
-Parts list:
+#### Parts list:
 
 | Hardware                      | Price         | Count  | Total  |
 | :-----------------------------|--------------:| ------:|-------:|
@@ -101,15 +103,18 @@ Parts list:
 | Start Logo Pushbut. Start 2   | 2.90          | 1      | 2.90   |
 | Wiring Kit                    | 22.00         | 1      | 22.00  |
 
-I-PAC 2:
+##### I-PAC 2:
 
-Picking a solid usb-controller to make button mapping WAY easier. A controller specifically designed for arcade input also helps with being able to read a bunch of inputs being pressed at once. For this I went with the I-PAC 2. The modern day versions support a few additional buttons which help with alternate controls such as pause, shuffle, menu, back, etc... I would utilizing these. My I-PAC lets you access these commands via "shift" functions - that is, you hold down Start-P1 and press specific buttons for specific actions.
+Picking a solid usb-controller to make button mapping WAY easier. A controller specifically designed for arcade input also helps with being able to read a bunch of inputs being pressed at once. For this I went with the I-PAC 2. The modern day versions support a few additional buttons which help with alternate controls such as pause, shuffle, menu, back, etc... I would utilizing these. My I-PAC lets you access these commands via "shift" functions - that is, you hold down Player1Start and press specific buttons for specific actions.
 
-Joysticks:
+The [I-PAC2 control sheet](https://www.ultimarc.com/ipac2.html)
+ 
+
+##### Joysticks:
 
 I wanted the absolute best option I could find here. It is important that these can take a beating. I ended up going with the Mag-stik and have been very happy with them. A cool feature is the ability to lift and twist the stick to move from 8-way to 4-way controls. This is great for old school games like PACMAN that only support 4 way controls.
 
-Buttons:
+##### Buttons:
 
 As with the joysticks, I wanted the closest thing to real as possible. I am very happy with how the classic pushbuttons worked out. Unfortunately at the time there wasn't an option for LED buttons. This would be a cool feature as you can light them up ingame based on whether or not they're active!
 
@@ -117,9 +122,30 @@ Ensure to make space for wiring and button placement. There is a lot going on in
 
 As mentioned above, there is support for a variety of other buttons. At the very minimum it is advised to have buttons for player 1 and player 2 start and coin add.
 
-Wiring:
+##### Wiring:
 
-This was a lot of a fun. There were a lot of wires to be cut, stripped and crimped to put this together. Overall it works well and didnt require soldering.
+This was a lot of a fun. There were a lot of wires to be cut, stripped and crimped to put this together. Overall it works well and didnt require soldering. I used common ground for the buttons but isolated everything else. 
+
+I have had a wire come loose on occasion. It definitely helps to have easy access to the underside of the panel.
+
+##### Display
+
+The display was a bit of a challenge. There are a few things to take into consideration when building an arcade machine.
+
+Ask yourself, do you want to CRT (big but lightgun friendly and more try to original) and LED (small, light, aspect ratio, resolution)? Originally I had an old TV in mind for using with this but during testing it was obvious it wouldnt work (lines and discolouration as I tested it) so I ended up having to go with LED. Luckily I had a 19inch 4:3 LG monitor that would work. The only bummer really is its size. I would have liked to go larger but it was really challenging to find anything in a 4:3 that was larger than 19inch (some $5000 medical monitors at 24 popped up... but a little more expensive than I was willing to pay).
+
+Since 2011 there have been a lot of advances in the emulators and how they handle wide screen monitors. If I can find the time I would like to resize the front display holder to accomodate a 22 or 24 inch wide screen. Some more of this in the What's next section at the end of this write up.
+
+The screen orientation could depend on what types of games you enjoy playing. You could mount vertically if you're big into vertically scrolling shoot 'em ups (like the 19xx series). I havent tried this but have heard mention of it on various forums.
+
+##### Sound
+
+For the speakers in this build I used a pair of old Dell desktop speakers. Once disassembled they mounted nicely in the wooden frame at the top of the box. 2 small holes are cut below the marquee. In hindsight it would have been cool to make them slotted but it still came out ok.
+
+Because they were desktop speakers there is a physical volume control knob and standard 3.5mm headphone jack making it easy to connect to the computer inside.
+
+It doesnt produce a lot of bass but they work well in this application. It would be nice to get the physical volume controls easily accessible from the outside but not a hard requirement. You can utilize an input shortcut on the I-PAC2 to adjust the volume using player1start+up/down on the joystick.
+
 
 ## Build Pics
 
@@ -129,28 +155,39 @@ This was a lot of a fun. There were a lot of wires to be cut, stripped and crimp
 ##### Panel during build
 ![holes cut](https://github.com/andruschak/arcade-machine/blob/master/images/control-panel-one.png)
 
+##### Wiring the controls
+![holes cut](https://github.com/andruschak/arcade-machine/blob/master/images/control-panel-wiring.png)
+
 ##### Finished panel
 ![finished panel](https://github.com/andruschak/arcade-machine/blob/master/images/control-panel-finished.png)
 
- 
-## Display
+##### Finished cabinet and loading of the first game!
+![assembled](https://github.com/andruschak/arcade-machine/blob/master/images/assembled-firstplay.png)
 
 
-## Sound
+# Computer hardware 
+
+Choice of computer hardware is absolutely critical to the success of this build. In this section I will cover the history, testing and overall choices I made when building this out. 
+
+Emulation can be quite demanding on hardware. Many arcade platforms were built on proprietary electronics using design choices that dont always align well with modern cpu architectures. This results in a wide set of results and experiences depending on what you're trying to play. Mortal Kombat II for example utilizes discrete graphics and sound processors which have to be properly synced and emulated on a single core of a modern cpu. This can push the limits of weak hardware.
 
 
-## The PC
+## The original PC
 
 The original PC that I used for this project was a Core2Duo e8400, 4gb ram and a 230gb hd. It proved to be more than adequate horsepower for the games I was looking to play (pre 2000).
 
 
 ## The return of PC
- 
+
+Since 2011 there has been a revolution in the amount of horsepower available in a small form factor. In 2012 the original Raspberry Pi was released ushering in a new era a mini computers.
+
+At the time of this writing, the latest RPI is a model 3b+. I make use of this board in another project (will do a write up for that one later). In my experience the PI isn't powerful enough to handle some of the arcade roms I wanted to play. This meant I needed to find an replacement. As luck would have it, I was able to get my hands on an Intel NUC, which appears to be able to handle all of the games I can throw at it.
+
 
 ### Software
 
 ### Front end
 
-### ROMS
+### ROMs
 
 ## What's next?
