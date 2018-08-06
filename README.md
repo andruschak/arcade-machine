@@ -140,7 +140,7 @@ The screen orientation could depend on what types of games you enjoy playing. Yo
 
 ##### Sound
 
-For the speakers in this build I used a pair of old Dell desktop speakers. Once disassembled they mounted nicely in the wooden frame at the top of the box. 2 small holes are cut below the marquee. In hindsight it would have been cool to make them slotted but it still came out ok.
+For the sound system in this build I used a pair of old Dell desktop speakers. Once disassembled they mounted nicely in the wooden frame at the top of the box. 2 small holes are cut in the cabinet below the marquee. In hindsight it would have been cool to make them slotted but it still came out ok.
 
 Because they were desktop speakers there is a physical volume control knob and standard 3.5mm headphone jack making it easy to connect to the computer inside.
 
@@ -169,22 +169,56 @@ It doesnt produce a lot of bass but they work well in this application. It would
 
 Choice of computer hardware is absolutely critical to the success of this build. In this section I will cover the history, testing and overall choices I made when building this out. 
 
-Emulation can be quite demanding on hardware. Many arcade platforms were built on proprietary electronics using design choices that dont always align well with modern cpu architectures. This results in a wide set of results and experiences depending on what you're trying to play. Mortal Kombat II for example utilizes discrete graphics and sound processors which have to be properly synced and emulated on a single core of a modern cpu. This can push the limits of weak hardware.
+Emulation can be quite demanding on hardware. Many arcade platforms were built on proprietary electronics using design choices that dont always align well with modern cpu architectures. This results in a wide set of results and experiences depending on what you're trying to play. Mortal Kombat II for example utilizes a discrete graphic and sound processors which have to be properly synced and emulated on a single core of a modern cpu. This can push the limits of weak hardware. 
 
+The emulator performance is only one aspect of the experience. You also need to make sure the system is able to handle the operating system and frontend software (depending on how sophisticated you want to go). 
 
 ## The original PC
 
-The original PC that I used for this project was a Core2Duo e8400, 4gb ram and a 230gb hd. It proved to be more than adequate horsepower for the games I was looking to play (pre 2000).
+The original PC that I used for this project was one of my previous desktop machines.
 
+- Core2Duo @ 3.0Ghz (e8400)
+- 4gb memory 
+- 230gb HD 
+- Nvidia 9800GT (not heavily utilized in MAME)
+
+It proved to be more than adequate horsepower for the games I was looking to play (pre 2000).
+
+I left it in the ATX case I had originally built it in which fits in the case but isnt the best use of space. 
+
+For the operating system I ran Windows 7 Professional 64bit (though 32bit Home would probably work). 
 
 ## The return of PC
 
 Since 2011 there has been a revolution in the amount of horsepower available in a small form factor. In 2012 the original Raspberry Pi was released ushering in a new era a mini computers.
 
-At the time of this writing, the latest RPI is a model 3b+. I make use of this board in another project (will do a write up for that one later). In my experience the PI isn't powerful enough to handle some of the arcade roms I wanted to play. This meant I needed to find an replacement. As luck would have it, I was able to get my hands on an Intel NUC, which appears to be able to handle all of the games I can throw at it.
+At the time of this writing, the latest RPI is a model 3b+. 
+
+The PI has some advantages over a full blown PC:
+- Price
+- Form factor
+- Low power consumption
+- Fully configured system images can be found online (be careful with these)
+
+However, in my experience the PI isn't powerful enough to handle some of the more demanding arcade roms. I do make use of this board in another emulation project (will do a write up for later). 
+
+As luck would have it, I was able to get my hands on an old Intel NUC which appears to be able to handle all of the games thrown at it.
+
+- Intel NUC (NUC6CAYH)
+- Dual Core Celeron @ 2.3Ghz
+- 4GB Memory
+- 120 Corsair RED SSD
+- Built in WiFi and Bluetooth is a bonus
+- Tiny footprint compared to an ATX midtower
+
+My only gripe with the system is the CPU. I'm not typically like Celerons and it is definitley the bottleneck in this machine. It appears to run games fine but there is the odd framedrop while running Hyperspin. Nothing terrible but occasionally noticable.
+
+Because of Hyperspin the system needs to be running Windows (in this case - Win 10 64bit). I would recommend checking out some tips and tricks for improving performance such as disabling rich themes and search indexing.
 
 
 ### Software
+
+
 
 ### Front end
 
