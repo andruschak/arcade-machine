@@ -1,6 +1,6 @@
 # Building... and rebuilding an arcade machine
 
-This is a chronicle of a project that took to life in 2011 and is still evolving today. I am taking the time to put this together online because of a recent tragedy - around 6 months ago the motherboard in the PC died.
+This is a chronicle of a project that took to life in 2011 and is still evolving today. I am taking the time to put this together online because of a recent tragedy - around 6 months ago the motherboard in the PC died. 
 
 Some of the original information is gone but I will endeavour to try and find as much of the original plans as I can.
 
@@ -112,11 +112,11 @@ The [I-PAC2 control sheet](https://www.ultimarc.com/ipac2.html)
 
 ##### Joysticks:
 
-I wanted the absolute best option I could find here. It is important that these can take a beating. I ended up going with the Mag-stik and have been very happy with them. A cool feature is the ability to lift and twist the stick to move from 8-way to 4-way controls. This is great for old school games like PACMAN that only support 4 way controls.
+You want the absolute best option you can find here. It is important that these can take a beating. I ended up going with the Mag-stik and have been very happy with them. A cool feature is the ability to lift and twist the stick to move from 8-way to 4-way controls. This is great for old school games like PACMAN that only support 4 way controls.
 
 ##### Buttons:
 
-As with the joysticks, I wanted the closest thing to real as possible. I am very happy with how the classic pushbuttons worked out. Unfortunately at the time there wasn't an option for LED buttons. This would be a cool feature as you can light them up ingame based on whether or not they're active!
+As with the joysticks, the closest thing to real as possible. I am very happy with how the classic pushbuttons worked out. Unfortunately at the time there wasn't an option for LED buttons. This would be a cool feature as you can light them up ingame based on whether or not they're active!
 
 Ensure to make space for wiring and button placement. There is a lot going on in there so leave room.
 
@@ -132,7 +132,7 @@ I have had a wire come loose on occasion. It definitely helps to have easy acces
 
 The display was a bit of a challenge. There are a few things to take into consideration when building an arcade machine.
 
-Ask yourself, do you want to CRT (big but lightgun friendly and more try to original) and LED (small, light, aspect ratio, resolution)? Originally I had an old TV in mind for using with this but during testing it was obvious it wouldnt work (lines and discolouration as I tested it) so I ended up having to go with LED. Luckily I had a 19inch 4:3 LG monitor that would work. The only bummer really is its size. I would have liked to go larger but it was really challenging to find anything in a 4:3 that was larger than 19inch (some $5000 medical monitors at 24 popped up... but a little more expensive than I was willing to pay).
+Ask yourself, do you want to CRT (big but lightgun friendly and more try to original) and LED (small, light, aspect ratio, resolution)? Originally I had an old TV in mind for using with this but during testing it was obvious it wouldnt work (lines and discolouration when tested) so it ended up having to to be LED. Luckily I had a 19inch 4:3 LG monitor that would work. The only bummer really is its size. It would have be nice to go larger but it was really challenging to find anything in a 4:3 that was larger than 19inch (some $5000 medical monitors at 24inch popped up... but yeah.. no).
 
 Since 2011 there have been a lot of advances in the emulators and how they handle wide screen monitors. If I can find the time I would like to resize the front display holder to accomodate a 22 or 24 inch wide screen. Some more of this in the What's next section at the end of this write up.
 
@@ -175,18 +175,18 @@ The emulator performance is only one aspect of the experience. You also need to 
 
 ## The original PC
 
-The original PC that I used for this project was one of my previous desktop machines.
+The original PC used for this project was one of my previous desktop machines.
 
 - Core2Duo @ 3.0Ghz (e8400)
-- 4gb memory 
-- 230gb HD 
+- 4GB Memory 
+- 230GB HD 
 - Nvidia 9800GT (not heavily utilized in MAME)
 
-It proved to be more than adequate horsepower for the games I was looking to play (pre 2000).
+It proved to be more than adequate horsepower for the games thrown at it (anything pre-2000).
 
-I left it in the ATX case I had originally built it in which fits in the case but isnt the best use of space. 
+I left it in it's original ATX case, which wasn't the best use of space, but got the job done. 
 
-For the operating system I ran Windows 7 Professional 64bit (though 32bit Home would probably work). 
+The operating system used was Windows 7 Professional 64bit (though 32bit Home would probably work). 
 
 ## The return of PC
 
@@ -207,7 +207,7 @@ As luck would have it, I was able to get my hands on an old Intel NUC which appe
 - Intel NUC (NUC6CAYH)
 - Dual Core Celeron @ 2.3Ghz
 - 4GB Memory
-- 120 Corsair RED SSD
+- 120GB Corsair RED SSD
 - Built in WiFi and Bluetooth is a bonus
 - Tiny footprint compared to an ATX midtower
 
@@ -216,11 +216,23 @@ My only gripe with the system is the CPU. I'm not typically like Celerons and it
 Because of Hyperspin the system needs to be running Windows (in this case - Win 10 64bit). I would recommend checking out some tips and tricks for improving performance such as disabling rich themes and search indexing.
 
 
-### Software
+## Software
+
+Like anything else, hardware is only as good as the software running on top of it. Lucky for us, there is a lot to choose from.
+
+Operating System
+
+Emulator:
+- [MAME](http://mamedev.org/) - The defacto standard, what is used in this build
+- [FBA](https://www.fbalpha.com/) - New comer, popular pair with linux and emulationstation
+
+Front End:
+- [Hyperspin](http://hyperspin-fe.com/) - Used in this guide
+- [Launchbox](https://www.launchbox-app.com/) - Never used but heard good things
+
+The original build booted straight into MAME. While this was functional it wasn't very pretty. There are a couple 
 
 
-
-### Front end
 
 ### ROMs
 
